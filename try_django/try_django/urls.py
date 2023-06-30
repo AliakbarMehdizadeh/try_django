@@ -28,5 +28,5 @@ urlpatterns = [
     path('home/', home_page),
     path('about/', about_page),
     path('contact/', contact_page),
-    path('blog/', blog_post_detail)
+    path('blog/<str:slug>/', blog_post_detail)
 ]
